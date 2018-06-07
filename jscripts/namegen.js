@@ -1,11 +1,11 @@
 var first = [
-    "Stinky", "Gassy", "George", "Dirty", "Dizzy", "Narrow", "Shaky","Hawk-Nose", "Gorgeous","Dum Dum", "Greasy",  "Pus-face", "Smelly", "Snaggle-Tooth", "Slouchy", "Marvin", "Harry", "Hercules", "Tiny"
+    "Stinky", "Filbert", "George", "Dirty", "Dizzy", "Narrow", "Shaky", "Hawk-Nose", "Gorgeous", "Dum Dum", "Greasy", "Pus-face", "Smelly", "Snaggle-Tooth", "Slouchy", "Marvin", "Harry", "Hercules", "Tiny", "Wheezy", "Argh-Blat", "Slappy", "Mugsley", "Melvin", "Red", "Griselda", "Gassy", "Saucy", "Thunder", "Hilda", "Muscles"
 
 
 ]
 
 var last = [
-    "Trouser-patch", "Soggy-bottom", "Bugbear-bait", "Butt-Cheeks", "Bum-Shaker", "Rolly-Pimple", 
+    "Bugbear-bait","Rolly-Pimple", "Soggy-bottom",  "Butt-Cheeks", "Bum-Shaker", "Underpants", "McTrollface", "MoldyWart", "Von Beethoven", "The Green", "McNutt", "Trouser-patch", "Fartblossom", "Wicked-Gorge", "Mountain-Head","The Mighty", "Highbun", "Bumtuka", "High-Fang", "Club-Face", "Wart-Mouth", "The Fang", "The Hammer", "The Terror", "Warhammer", "Thunderclaw", "Longtooth", "Deeznuts"
 
 ]
 

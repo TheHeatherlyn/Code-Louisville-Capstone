@@ -24,22 +24,29 @@
     
     
     <div class="container">
+        
+        <header class="main_header">
+            <h1>So you wanna make a troll...</h1>
+        </header>
+       
         <div class="trollin">
-            <header class="main_header"><h1>So you wanna make a troll...</h1></header>
+            
+
             <h2>Click the button below for a fun way to generate a name for your troll</h2>
             <!-- If this goes as planned, the first and last name should be adjacently displayed. Now I just have to figure out how to call the two functions together in the same button. -->
             <div> Welcome to the world! You shall now be known as...
                 <br>
-                <p id="first"></p>
+                <p class="output" id="first"></p>
             </div>
             <!-- Scripts are added below the id-containing div so the id will exist before the function is called. -->
             <script src="jscripts/namegen.js" type="text/javascript"></script>
             <!-- This button will call the name generator function. -->
-            <button id="butt1" onclick="firstName()">Get Your name</button>
+            <button class="namebutton" id="butt1" onclick="firstName()">Get Your Name</button>
             
-
+            <img src="Images/wicked-troll.jpg" class="body_background" alt="Carry on and adventure">
+            <img src="Images/ugly-troll.jpg" class="img2" alt="OH EM GEE that's ugly!">
         </div>
-        <img src="Images/wicked-troll.jpg" class="body_background" alt="Carry on and adventure">
+       
     </div>
    
 </body>
