@@ -3,98 +3,101 @@
         }
 
         html,
+        
         body {
-            height: 100%;
-        }
-
-        body {
-            font-family: "Bauhaus","Times New Roman", "Courier";
+            font-family: "Palatino Linotype", "Ariel slender", "Times New Roman", "Courier";
             font-size: 1.5rem;
-            height: 100%;
-            margin: 0;
             padding: 0;
-            background: skyblue;
-            text-shadow: 2px 2px 2px gold;
+            text-shadow: 4px 4px 4px rgba(143, 84, 84, 0.527);
+            background-color:  rgb(247, 239, 216);
 
         }
         
-        .main_header {
-            height: 100px;
-            font-weight: bold;
-            border-bottom: solid 2px black;
-            margin-bottom: 75px;
-            padding-bottom: 15px;
-        }
-
         .container {
-            height: 100%;
-            position: relative;
+            font-weight: bold;
+            color: rgb(1, 14, 27);
+            border-bottom: solid, 15px, rgba(5, 2, 32, .15);
+            text-align: center;
             padding: 1rem;
         }
 
-        .namebutton {
-            font-size: 1.2rem;
+        h2 {
+            font-size: 1.5rem;
+            color: rgb(1, 14, 27);
+
+        }
+
+         .namebutton {
+            font-size: 1rem;
             font-weight: bold;
-            background-color: teal;
-            color: rgb(65, 1, 1);
-            margin-bottom: 20px;
+            background-color: rgb(109, 136, 172);
+            color: rgb(1, 14, 27);
+            margin-bottom: 50px;
             display: inline-block;
+            align-items: center;
+            text-align: center;
+            border-color: beige;
+            border-radius: 8%;
         }
 
         .output {
             font-weight: bolder;
-            font-size: 30px;
-            width: 25%;
+            font-size: 2rem;
             text-align: center;
             align-items: center;
             display: inline-block;
-            
+            margin-bottom: 20px;
+        }
+        .welcome {
+            font-weight: bolder;
+            font-size: 1.5rem;
+            text-align: center;
+            align-items: center;
+            display: inline-block;
         }
 
         .trollin {
             text-align: center;
-            Color:Navy;
+            color: rgb(1, 14, 27);
             padding: 2%;
-        }
-
-        .body_background {
+            font-size: .75rem;
             display: inline-block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
-            border-style: line ;
-            border-width: 40px;
-            border-color: gold;
-            border-radius: 5%;
-            position: relative;
-            opacity: 0.75;
-            max-height: 400px;
-            max-width: 400px;
-            float: left;
+            padding-right: 12px;
         }
-
-        .img2 {
-            float: right;
-            display: inline-block;
-            margin-bottom: 10px;
+ 
+        #funnyPic {
+            max-width: 300px;
+            max-height: 300px;
+            padding-bottom: 20px;
         }
+           
+        
 
         /* This is where I will put the responsive code in */
-        @media (max-width: 320px) {
-            width: 100%;
-            margin: 0 auto;
-            
-
-        }
-
-
+      
         @media (min-width: 720px) {
-            width: 100%;
-            margin: 0 auto;
+            .story {
+                max-width: 35%;
+                padding-right: 5%;
+                display: inline-flex;
+                justify-content: center;
+                /* padding left: 10%;
+                margin-left: 10%; */
+                
+            }
 
-        }
+            .story2 {
+                max-width: 35%;
+                display: inline-flex;
+                justify-content: center;     
 
-        @media (max-width: 1028px) {
-            width: 90%;
-            margin: 10px 10px;
+            }
+            
+            p::first-letter { 
+                font-size: 200%;
+            }
+
+        @media (max-width: 1080px) {
+                margin-auto;
+/*         
         }

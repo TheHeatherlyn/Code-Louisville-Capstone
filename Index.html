@@ -33,22 +33,46 @@
             
 
             <h2>Click the button below for a fun way to generate a name for your troll</h2>
-            <!-- If this goes as planned, the first and last name should be adjacently displayed. Now I just have to figure out how to call the two functions together in the same button. -->
-            <div> Welcome to the world! You shall now be known as...
-                <br>
-                <p class="output" id="first"></p>
+            <div class="welcome"> Welcome to the world! <br><br> You shall now be known as...
+                <br><br>
+                <span class="output" id="first"></span>
             </div>
-            <!-- Scripts are added below the id-containing div so the id will exist before the function is called. -->
-            <script src="jscripts/namegen.js" type="text/javascript"></script>
+            <div>
+                <img class"output" id="funnyPic">
+            </div>
+                            
             <!-- This button will call the name generator function. -->
-            <button class="namebutton" id="butt1" onclick="firstName()">Get Your Name</button>
+            <button class="namebutton" id="butt1" onclick="firstName(); trollFace()">Meet Your Troll</button>
+
             
-            <img src="Images/wicked-troll.jpg" class="body_background" alt="Carry on and adventure">
-            <img src="Images/ugly-troll.jpg" class="img2" alt="OH EM GEE that's ugly!">
+            
         </div>
+        
+        <div class="story">            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit ultrices ex, et aliquam tellus consectetur ut. Etiam
+        sed nulla elit. Aliquam erat volutpat. Suspendisse quis diam in massa aliquam tristique mollis nec ligula. Donec maximus
+        lectus condimentum quam posuere, a ultrices arcu consectetur. Ut vitae tellus nunc. Maecenas bibendum, nisi eu vestibulum
+        accumsan, eros augue porttitor lorem, ut feugiat nisl nisl vitae elit. Nulla sagittis eros sit amet consectetur tempus. Proin
+        egestas nunc placerat, fringilla justo pretium, vestibulum lorem. Maecenas ut porta lectus. Nam sed lectus velit. Aliquam
+        vehicula, ex vitae scelerisque sodales, orci velit porttitor eros, quis pharetra enim diam elementum mi. Nullam dignissim
+        nisl et urna viverra pharetra. Donec leo erat, pellentesque vel dapibus a, malesuada at diam.  </p></div>
+            </span>
+
+        
+        <div class="story2"><p>
+         Aliquam ultrices, sapien in suscipit suscipit, odio felis efficitur mi, et aliquam nunc dolor accumsan est. Pellentesque non eros ut ex eleifend bibendum.
+        Cras eget vestibulum tortor, vitae finibus turpis. Cras id vulputate lorem, ac lacinia odio. Integer consequat tristique
+        elit non consequat. In sem leo, auctor consectetur erat ac, dignissim vestibulum turpis. Praesent et urna vel neque congue
+        laoreet. Cras quis erat ut libero euismod iaculis. Nam fermentum velit eu luctus auctor. Nunc consequat ex non odio sagittis
+        dictum. Nunc lacinia porttitor ornare. Cras sem arcu, cursus malesuada magna vel, mollis faucibus mauris. Vestibulum sit
+        amet condimentum elit. Maecenas elit turpis, congue quis mauris et, suscipit convallis lorem. Sed eleifend ipsum quis odio
+        bibendum, in dapibus dui pretium.</p></div>
+
+       
        
     </div>
-   
+    <script src="jscripts/jquery.3.3.1.min.js" type="text/javascript"></script>
+    <script src="jscripts/namegen.js" type="text/javascript"></script>
 </body>
 
 
